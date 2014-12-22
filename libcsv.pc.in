@@ -1,0 +1,14 @@
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: LibCSV
+Description: csv library is small utility for reading in and writing the simple comma separated value format.
+URL: http://cyrta.com/
+Version: @CSV_ABI_VERSION@
+Requires:
+Libs: -L${libdir} -lcsv @LIBS@
+Cflags: -I${includedir}
+
